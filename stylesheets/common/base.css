@@ -1,0 +1,18 @@
+/* Base 스타일 작성 */
+*{
+    /* 폰트 설정 */
+    font-family: 'Noto Sans KR', sans-serif;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+ul{
+    list-style: none;
+}
+
+button{
+    border: 0;
+}
+
+
+

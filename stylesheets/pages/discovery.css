@@ -1,0 +1,156 @@
+/* 오늘의 발견 */
+.wrapper{
+    width: 1020px;
+    margin : 0 auto;
+    /* border:1px solid #000; */
+}
+
+header{
+    margin-top: 100px;
+    padding: 0;
+}
+
+.logo{
+    width: 176px;
+    height: 40px;
+}
+
+.title{
+    height:28px;
+}
+
+.title1{
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: var(--color-black-1);
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.title2{
+    font-size: 20px;
+    line-height: 28px;
+    color: var(--color-gray-600);
+    text-align: center;
+    margin-right: 10px;
+    align-content: center;
+}
+
+.title3{
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: var(--color-gray-600);
+    font-weight: 500;
+    align-content: center;
+
+}
+
+section{
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.image-wrapper{
+    margin: 24px 0 0 0;
+    padding : 0;
+}
+
+.item-list{
+    padding: 0;
+    margin: 0;
+}
+
+
+.item-img{
+    margin: 20px 28px;
+}
+
+.item{
+    display: flex;
+    position: relative;
+    border: 1px solid var(--color-border);
+    float : left;
+}
+
+.item.small-img{
+    width: 243px;
+    height: 310px;
+}
+
+.item.large-img{
+    width: 502px;
+    height: 310px;
+}
+
+li:nth-child(1),
+li:nth-child(3),
+li:nth-child(4),
+li:nth-child(5),
+li:nth-child(7),
+li:nth-child(8){
+    margin-right: 16px;
+}
+
+li:nth-child(3),
+li:nth-child(4),
+li:nth-child(5),
+li:nth-child(6),
+li:nth-child(7),
+li:nth-child(8),
+li:nth-child(9){
+    margin-top: 16px;
+}
+
+.item:hover{
+    border-color: var(--color-blue-600);
+}
+
+.item:focus{
+    border-color: var(--color-blue-600);
+}
+
+button{
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    bottom: 20px;
+    left: 20px;
+    z-index: 1;
+    transition-duration : 0.03s;
+    cursor : pointer;
+}
+
+.item:hover span:after{
+    content : '구매하기';
+    width: 52px;
+    height: 17px;
+    display: inline-block;
+    font-weight: 500;
+    color : #fff;
+    position: absolute;
+    line-height: 17px;
+    top : 12px;
+    left: 20px;
+    bottom : 13px;
+}
+.btn-img{
+    display: block;
+}
+.item:hover button{
+    background-color: var(--color-blue-600);
+    width : 112px;
+    transition:  0.5s ;
+}
+
+.item:hover .btn-img{
+    position: absolute;
+    right: 4px;
+    top: 1.5px;
+}
+
+
+
+
